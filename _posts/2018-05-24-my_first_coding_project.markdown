@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First Coding Project"
-date:       2018-05-24 20:14:44 +0000
+date:       2018-05-24 16:14:45 -0400
 permalink:  my_first_coding_project
 ---
 
@@ -16,9 +16,13 @@ I had a little bit of trouble sorting out how to create an environment and sort 
 
 I watched the lessons and read over the examples countless times. I also checked around for other sources of information, and as I mentioned, I went back through the scraping lessons. I set up some basic scraper methods, and they worked well enough in pry that I thought I was on my way. Then, I watched another lesson, and I learned about the challenges of scraping table data. All of the data on my website was table based. Worse yet, a lot of the data was sourced from other places. There weren't many nodes or unique identifiers to work with. In sum, my evidence seemingly did not support my argument.
 
-At this point, I had to change course with my project. I chose a new page on the same website that looked to be a bit easier to work with, and I ran a number of tests to see what kind of data that I could actually scrape. In the end, I created an app that collected information for one academic program to be easily viewed in one place. The app allows a user to choose between the overview and contact information, and it will also provide a list of courses and a list of faculty. This is pretty basic stuff, but it could be useful for marketing purposes. Say the program has a table at a recruitment event, they could have a couple tablets at the table, allowing people to flip through the basics while waiting to speak to a recruiter. And as long as other programs use the same basic web layout, then the app could be useful across an institution.
+At this point, I changed course with my project. I chose a new page on the same website that looked to be a bit easier to work with, and I ran a number of tests to see what kind of data that I could actually scrape. In the end, I created an app that collected information for one academic program to be easily viewed in one place. The app allowed a user to choose between the overview and contact information, and it will also provide a list of courses and a list of faculty. This was pretty basic stuff, but it did not really statisfy the objectives of the project.
 
-I am not sure that I have anything insightful to add about coding a CLI or a scraper method. Hopefully, however, others can relate to my overall experiences with the learning process.
+I decided to take a few days off. 
+
+When I came back to the project, I wanted to see if the issue was the website or the code, so I looked at a course list at a different university. The html on this page was completely different, but I got the same results. This was actually really helpful because I realized that my code was the issue. I went back to my original page, and when looking at the inspector, I realized that I had not gone deep enough with my scraper method. I also revisited my solution to the student scraper lab. I borrowed from this and created an array of hashes for my course information. After a quick meeting with my instructor, I was able to write methods to make all of my objects work together. I now have an app that provides a list of courses; users can select a course from the list, enter another selection, return to the menu, or quit. While still basic, this is more in line with my goals for the project.
+
+My first coding project served as a good reminder that learning is hard but rewarding. As expected, I learned quite a bit about Ruby while working on this, but there were also a few other practical takeaways: 1) work at comfortable pace 2) use all available resources  3) talk to people 4) don't forget to practice self-care.
 
 
 
