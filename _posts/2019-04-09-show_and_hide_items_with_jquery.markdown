@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Show and Hide Items with jQuery"
-date:       2019-04-09 16:03:14 +0000
+date:       2019-04-09 12:03:14 -0400
 permalink:  show_and_hide_items_with_jquery
 ---
 
